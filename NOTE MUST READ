@@ -1,0 +1,61 @@
+Install react
+
+step 1: npm create vite@latest folder-name -- --template react    
+step 2: cd folder-name
+step 3: install tailwind css or npm install
+
+
+Install tailwind css
+
+step 1: npm install -D tailwindcss postcss autoprefixer
+step 2: npx tailwindcss init -p
+step 3: in tailwind.config.js file's upade the content part. ->   content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}", ],
+step 4: delete all css code in index.css file and add bellow css code " @tailwind base; @tailwind components; @tailwind utilities; "
+COPMLETE Tailwind css add in react. Tailwind link: https://tailwindcss.com/docs/guides/vite
+
+
+
+Install daisyUI
+
+step 1: npm i -D daisyui@latest
+step 2: in tailwind.config.js file's plugins part update.  ->   plugins: [require("daisyui")],
+step 3: in .eslintrc.cjs file's env part update. -> node:true,
+COMPLETE DaisyUi add in react. DaisyUI link: https://daisyui.com/docs/install/
+
+
+Install react-icon
+
+step 1: npm install react-icons
+step 2: import selected icon copmonent.
+step 3: use the icon component.
+COMPLETE React icon add. React icon link: https://react-icons-v2.vercel.app/
+
+
+Install Recharts
+step 1: npm install recharts
+step 2: copy the code and use.
+COMPLETE rechart add. Rechart link: https://recharts.org/en-US/guide/installation
+
+
+Insatall Axios
+step 1: npm install axios
+COMPLETE Axios add. Axios link: https://axios-http.com/docs/intro
+Note : use of axios see the Axios.jsx file in this project.
+
+
+Install awesome-react-components
+Setp 1: go this link : https://github.com/brillout/awesome-react-components and find what you want and follow the ruls and use this part
+
+
+Some command for react project:
+npm run dev -> for run this project.
+npm run build -> for making dist file. when we host react project in 3rd party service (linke netlyfly) this time we upload thie dist file only.
+surge dist -> for hote the surge site.
+
+
+
+
+
+
+
+ 
